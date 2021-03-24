@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parent{
+    background-color: #A6A7AD;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-one img{
+width: 700px;
+height: 700px;
+margin-left: 70px;
+}
+.card-one,.card-two{
+    height: 100vh;
+}
+.card-two .logIn{
+
+position: relative;
+top: 15%;
+left: 25%;
+width: 400px;
+height: 500px;
+}
+.card-two .logIn form{
+
+background: linear-gradient(to left,#da865c,#9D5A38);
+text-align: center;
+padding: 20px;
+display: flex;
+flex-direction: column;
+height: 100%;
+border-radius: 5px;
+padding-top: 50px;
+font-style: 20px;
+
+}
+
+.card-two .logIn form h2{
+
+margin-top: 10px;
+margin-bottom: 60px;
+color: #e1e1e4;
+
+}
+.card-two .logIn form label{
+
+text-align: start;
+color: #e1e1e4;
+margin-bottom: 10px;
+
+}
+.card-two .logIn form input{
+
+height: 30px;
+margin-bottom: 20px;
+border-radius: 5px;
+border:none;
+padding: 5px;
+}
+.card-two .logIn form button{
+    background: linear-gradient(to left,#55a853,#2E672C);
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    color: #eee;
+}
+.card-two .logIn form button:hover{
+
+box-shadow: -0.5px 5px 15px #111;
+transition: 0.8s;
+}
+.card-two .logIn form a{
+text-align: start;
+color: #fff;
+margin-top: 3px;
+margin-left: 5px;
+
+}
+.card-two .logIn form a:hover{
+color: #eee;
+
+}
+.card-two .logIn form p{
+
+margin-top: 50px;
+color: #e1e1e4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
